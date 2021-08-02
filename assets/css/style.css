@@ -36,6 +36,7 @@ body {
   box-shadow: 0 0 15px rgb(172, 172, 172);
 }
 
+
 .box__title {
   font-family: 'Bebas Neue';
   font-size: 96px;
@@ -43,7 +44,6 @@ body {
 
 .box__description {
   font-family: 'Montserrat'
-
 }
 
 .icons {
@@ -54,4 +54,36 @@ body {
   width: 75px;
   height: 75px;
   margin: 0 10px;
+}
+
+
+@media (max-width:1200px) {
+  .box {
+    max-width: 970px;
+  }
+}
+@media (max-width:992px) {
+  .box {
+    max-width: 750px;
+  }
+}
+@media (max-width:767px) {
+  .box {
+    max-width: none;
+    width: 50%;
+    padding: 1em;
+  }
+
+  .box__title {
+    font-size: 3em;
+  }
+
+  .icon {
+    width: 3em;
+    height: 3em;
+  }
+
+  .box__description {
+    font-size: 0.8em;
+  }
 }
