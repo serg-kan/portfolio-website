@@ -20,40 +20,42 @@ body {
   display: flex;
   justify-content: center;
 
-  /* background-color: #292929; */
   background-color: #000;
   color: #fff;
 }
 
 .container {
-  max-width: 1600px;
-  padding-top: 5em;
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 48px;
+}
+
+.icons-top {
+  display: none;
 }
 
 .logo {
   font-family: 'Bebas Neue';
-  font-size: 4em;
+  font-size: 48px;
 }
 
 .description {
-  margin-top: 10em;
+  margin-top: 100px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .description__title {
-  font-size: 2em;
+  font-size: 36px;
   font-weight: 700;
 }
 
 .description__subtitle {
-  font-size: 1em;
-  margin-top: 0.2em;
+  font-size: 20px;
 }
 
 .description__secondary {
-  margin-top: 2em;
-  font-size: 1.4em;
-  line-height: 1.2em;
+  margin-top: 48px;
+  line-height: 1.5em;
 }
 
 .description__secondary>ul>li {
@@ -61,9 +63,7 @@ body {
 }
 
 .description__contacts {
-  margin-top: 5em;
-  font-size: 1em;
-  
+  margin-top: 48px;
   line-height: 1.5em;
 }
 
@@ -75,46 +75,73 @@ body {
 }
 
 footer {
-  position: fixed;
-  bottom: 5%;
+  margin-top: 40px;
+  padding: 5px 0;
 }
 
 .icon {
   margin: 0 1em 0 0;
 }
 
-@media (max-width:1200px) {
-  .container {
-    max-width: 970px;
-  }
-}
-@media (max-width:992px) {
-  .container {
-    max-width: 750px;
-  }
-}
-@media (max-width:767px) {
-  .container {
-    max-width: none;
-    width: 70%;
-    padding-top: 10%;
+/* Responsive styles */
+
+@media screen and (max-height: 625px) and (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-between;
   }
 
-  .logo {
-    font-size: 4em;
+  .icons-top {
+    display: block;
   }
+
+  .icons-bottom {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 1140px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 540px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.container {
+		width: 100%;
+		padding: 20px;
+	}
 
   .description {
-    margin-top: 5em;
+    margin-top: 70px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   }
 
   .description__title {
-    font-size: 1.5em;
+    font-size: 24px;
+    font-weight: 700;
   }
 
-  .description__secondary {
-    margin-top: 3em;
-    font-size: 1.2em;
+  .description__subtitle {
+    font-size: 18px;
   }
 }
-
