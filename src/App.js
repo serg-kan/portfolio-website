@@ -5,8 +5,8 @@ function App() {
     <div className="App">
       <Navbar />
       <About />
-      <Contacts />
       <Timeline />
+      <Contacts />
       <Footer />
     </div>
   );
