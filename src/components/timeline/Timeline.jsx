@@ -63,8 +63,9 @@ function Timeline(props) {
             <h3 className="vertical-timeline-element-title">Fullstack-разработчик</h3>
             <h5 className="vertical-timeline-element-subtitle">Леруа Мерлен</h5>
             <p className="text-muted">
-              JavaScript, Python <br />
-              React.js, Node.js, MongoDB, PostgreSQL
+              Разработка системы мониторинга и управления релизами <br />
+              React.js, Redux, redux-saga <br />
+              Node.js, Express.js, MongoDB, PostgreSQL
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -76,7 +77,7 @@ function Timeline(props) {
             <h3 className="vertical-timeline-element-title">Стажер</h3>
             <h5 className="vertical-timeline-element-subtitle">Accenture</h5>
             <p className="text-muted">
-              Релиз-менеджмент, документация, UNIT-тестирование, аналитика <br />
+              Документация, UNIT-тестирование, аналитика <br />
               Selenium, Jest, Mocha, Chai
             </p>
           </VerticalTimelineElement>
