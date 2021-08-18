@@ -1,6 +1,6 @@
 function Contacts (props) {
   return (
-    <div>Contacts </div>
+    <div id="contacts">Contacts </div>
   );
 }
 

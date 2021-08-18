@@ -6,7 +6,7 @@ function App() {
       <Navbar />
       <About />
       <Timeline />
-      <Contacts />
+      {/* <Contacts /> */}
       <Footer />
     </div>
   );

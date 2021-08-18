@@ -38,9 +38,9 @@ function Navbar(props) {
           <div>
             <img className="float-md-start logo mb-0" src={logo} alt="Logo" />
             <nav className="nav nav-masthead justify-content-center float-md-end">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
-              <a className="nav-link" href="#">Features</a>
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link active" aria-current="page" href="#about">Обо мне</a>
+              <a className="nav-link active" href="#timeline">Резюме</a>
+              <a className="nav-link active" href="#contacts">Контакты</a>
             </nav>
           </div>
         </header>

@@ -1,17 +1,34 @@
 import React from 'react';
 
+import { SiInstagram, SiFacebook, SiYoutube, SiLinkedin } from 'react-icons/si';
+
 const Footer = () => {
   return (
     <div>
-      <footer class="py-3 bg-dark">
-        <ul class="nav justify-content-center pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      <footer className="py-3 bg-dark" id="footer">
+        <ul className="nav justify-content-center pb-3 mb-3">
+          <li className="nav-item">
+            <a target="_blank" className="nav-link px-2 text-light" rel="noopener noreferrer" href="https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D0%BA%D0%B0%D0%BD-53569a138/">
+              <SiLinkedin />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" className="nav-link px-2 text-light" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCM1UBclX5KG3_ebnUXzgCeg">
+              <SiYoutube />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" className="nav-link px-2 text-light" rel="noopener noreferrer" href="https://www.instagram.com/serg_kan/">
+              <SiInstagram />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" className="nav-link px-2 text-light" rel="noopener noreferrer" href="https://www.facebook.com/serg.kan096/">
+              <SiFacebook />
+            </a>
+          </li>
         </ul>
-        <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+        <p class="text-center text-muted">&copy; 2021 Sergey Kan</p>
       </footer>
     </div>
   );
