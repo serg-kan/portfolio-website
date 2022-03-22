@@ -17,16 +17,6 @@ const Footer = () => {
               <SiYoutube />
             </a>
           </li>
-          <li class="nav-item">
-            <a target="_blank" className="nav-link px-2 text-light" rel="noopener noreferrer" href="https://www.instagram.com/serg_kan/">
-              <SiInstagram />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a target="_blank" className="nav-link px-2 text-light" rel="noopener noreferrer" href="https://www.facebook.com/serg.kan096/">
-              <SiFacebook />
-            </a>
-          </li>
         </ul>
         <p class="text-center text-muted">&copy; 2021 Sergey Kan</p>
       </footer>
