@@ -18,7 +18,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <p class="text-center text-muted">&copy; 2021 Sergey Kan</p>
+        <p class="text-center text-muted">&copy; 2022 Sergey Kan</p>
       </footer>
     </div>
   );
