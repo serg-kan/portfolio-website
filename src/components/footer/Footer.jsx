@@ -1,27 +1,35 @@
-import React from 'react';
+import React from 'react'
+import './footer.css'
 
-import { SiInstagram, SiFacebook, SiYoutube, SiLinkedin } from 'react-icons/si';
+import {BsYoutube} from 'react-icons/bs';
+import {FaTelegramPlane, FaGithub} from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="py-3 bg-dark" id="footer">
-        <ul className="nav justify-content-center pb-3 mb-3">
-          <li className="nav-item">
-            <a target="_blank" className="nav-link px-2 text-light" rel="noopener noreferrer" href="https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D0%BA%D0%B0%D0%BD-53569a138/">
-              <SiLinkedin />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a target="_blank" className="nav-link px-2 text-light" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCM1UBclX5KG3_ebnUXzgCeg">
-              <SiYoutube />
-            </a>
-          </li>
-        </ul>
-        <p class="text-center text-muted">&copy; 2022 Sergey Kan</p>
-      </footer>
-    </div>
-  );
-};
+    <footer>
+      <a href="#" className="footer__logo">KAN</a>
+      
+      <ul className="permalinks">
+         <li><a href="#">Home</a></li>
+         <li><a href="#about">About</a></li>
+         {/* <li><a href="#experience">Experience</a></li>
+         <li><a href="#services">Services</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
+         <li><a href="#testimonials">Testimonials</a></li> */}
+         <li><a href="#contact">Contact</a></li>
+      </ul>
 
-export default Footer;
+      <div className="footer__socials">
+        <a href="https://t.me/product_kan" target="_blank" rel="noreferrer"><FaTelegramPlane /></a>
+        <a href="https://www.youtube.com/channel/UCM1UBclX5KG3_ebnUXzgCeg" target="_blank" rel="noreferrer"><BsYoutube /></a>
+        <a href="https://github.com/serg-kan" target="_blank" rel="noreferrer"><FaGithub /></a>
+      </div>
+
+      <div className="footer__copyright">
+        <small>&copy; 2022, Sergey Kan</small>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
