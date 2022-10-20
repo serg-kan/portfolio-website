@@ -13,6 +13,7 @@ import Nav from './components/nav/Nav';
 import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
 import Testimonials from './components/testimonials/Testimonials';
+import Resume from './components/resume/Resume';
 
 const App = () => {
   return (
@@ -20,10 +21,11 @@ const App = () => {
       <Header /> 
       <Nav />
       <About />
-      {/* <Experience /> */}
+      <Experience />
       {/* <Services /> */}
       {/* <Portfolio /> */}
       {/* <Testimonials /> */}
+      {/* <Resume/> */}
       <Contact />
       <Footer />
     </>
