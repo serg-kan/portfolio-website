@@ -1,10 +1,11 @@
-import React, { useRef } from 'react'
-
+import React from 'react'
 import './contact.css'
 
 import {MdOutlineEmail} from 'react-icons/md';
 import {BsWhatsapp} from 'react-icons/bs';
 import {FaTelegramPlane} from 'react-icons/fa';
+
+import ContactOption from './ContactOption.jsx';
 
 const Contact = () => {
  
@@ -16,26 +17,26 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
 
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>serg.kan096@gmail.com</h5>
-            <a href="mailto:serg.kan096@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
-          </article>
-          
-          <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h4>WhatsApp</h4>
-            <h5>+79175307982</h5>
-            <a href="https://api.whatsapp.com/send?phone=+79175307982" target="_blank" rel="noreferrer">Send a message</a>
-          </article>
+          <ContactOption 
+            title="Email"
+            contact="serg.kan096@gmail.com"
+            link="mailto:serg.kan096@gmail.com"
+            icon={<MdOutlineEmail className="contact__option-icon" />}
+          />
 
-          <article className="contact__option">
-            <FaTelegramPlane className="contact__option-icon" />
-            <h4>Telegram</h4>
-            <h5>serg_kan</h5>
-            <a href="https://t.me/serg_kan" target="_blank" rel="noreferrer">Send a message</a>
-          </article>
+          <ContactOption 
+            title="WhatsApp"
+            contact="+79175307982"
+            link="https://api.whatsapp.com/send?phone=+79175307982"
+            icon={<BsWhatsapp className="contact__option-icon" />}
+          />
+
+          <ContactOption 
+            title="Telegram"
+            contact="@serg_kan"
+            link="https://t.me/serg_kan"
+            icon={<FaTelegramPlane className="contact__option-icon" />}
+          />
 
         </div>
       </div>
