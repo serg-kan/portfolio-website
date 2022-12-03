@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 
 import {BsYoutube} from 'react-icons/bs';
-import {FaTelegramPlane, FaGithub, FaLinkedin} from 'react-icons/fa';
+import {FaTelegramPlane, FaLinkedin} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -12,17 +12,13 @@ const Footer = () => {
       <ul className="permalinks">
          <li><a href="#">Home</a></li>
          <li><a href="#about">About</a></li>
-         {/* <li><a href="#experience">Experience</a></li>
-         <li><a href="#services">Services</a></li>
-         <li><a href="#portfolio">Portfolio</a></li>
-         <li><a href="#testimonials">Testimonials</a></li> */}
          <li><a href="#contact">Contact</a></li>
       </ul>
 
       <div className="footer__socials">
         <a href="https://www.linkedin.com/in/sergkan/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
         <a href="https://t.me/product_kan" target="_blank" rel="noreferrer"><FaTelegramPlane /></a>
-        <a href="https://www.youtube.com/channel/UCM1UBclX5KG3_ebnUXzgCeg" target="_blank" rel="noreferrer"><BsYoutube /></a>
+        <a href="https://www.youtube.com/@serg_kan" target="_blank" rel="noreferrer"><BsYoutube /></a>
       </div>
 
       <div className="footer__copyright">

@@ -9,7 +9,7 @@ const HeaderSocials = () => {
     <div className="header__socials">
         <a href="https://www.linkedin.com/in/sergkan/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
         <a href="https://t.me/product_kan" target="_blank" rel="noreferrer"><FaTelegramPlane /></a>
-        <a href="https://www.youtube.com/@sergey_kan" target="_blank" rel="noreferrer"><BsYoutube /></a>
+        <a href="https://www.youtube.com/@serg_kan" target="_blank" rel="noreferrer"><BsYoutube /></a>
     </div>
   )
 }
