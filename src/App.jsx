@@ -10,10 +10,6 @@ import Experience from './components/experience/Experience';
 
 import Footer from './components/footer/Footer';
 import Nav from './components/nav/Nav';
-import Portfolio from './components/portfolio/Portfolio';
-import Services from './components/services/Services';
-import Testimonials from './components/testimonials/Testimonials';
-import Resume from './components/resume/Resume';
 
 const App = () => {
   return (
@@ -22,10 +18,6 @@ const App = () => {
       <Nav />
       <About />
       <Experience />
-      {/* <Services /> */}
-      {/* <Portfolio /> */}
-      {/* <Testimonials /> */}
-      {/* <Resume/> */}
       <Contact />
       <Footer />
     </>
