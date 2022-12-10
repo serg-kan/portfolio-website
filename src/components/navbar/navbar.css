@@ -1,0 +1,20 @@
+.header {
+  position: absolute;
+  background-color: var(--color-primary);
+  right: 0;
+  padding: 30px 10%;
+  z-index: 2;
+}
+
+.header_links {
+  display: flex;
+  gap: 3rem;
+}
+
+.header_links li {
+  cursor: pointer;
+}
+
+.header_links li a {
+  color: var(--color-bg);
+}

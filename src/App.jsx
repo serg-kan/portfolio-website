@@ -1,27 +1,27 @@
 import React from 'react'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import Root from './components/root/Root';
+import Blog from './components/blog/Blog';
+import YouTube from './components/youtube/Youtube';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    errorElement: <h2>Error</h2>
+  },
+  {
+    path: "/blog",
+    element: <Blog />
+  },
+  {
+    path: "/youtube",
+    element: <YouTube />
+  },
+])
 
 
-// import of all the components
-// TODO: refactor later so that paths will be './components/';
-import Header from './components/header/Header';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Experience from './components/experience/Experience';
-
-import Footer from './components/footer/Footer';
-import Nav from './components/nav/Nav';
-
-const App = () => {
-  return (
-    <>
-      <Header /> 
-      <Nav />
-      <About />
-      <Experience />
-      <Contact />
-      <Footer />
-    </>
-  )
+export default function App() {
+  return <RouterProvider router={router} />
 }
-
-export default App;

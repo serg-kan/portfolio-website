@@ -1,4 +1,4 @@
-header {
+.intro {
     /* 
         height: 100vh = 100% of the viewport height
         height: 100% = 100% of the parent's element height
@@ -13,7 +13,7 @@ header {
     color: var(--color-bg);
 }
 
-header a {
+.intro a {
     color: var(--color-bg);
 }
 
@@ -106,7 +106,7 @@ header a {
 
 /* * ========= MEDIA QUERIES (MEDIUM DEVICES / TABLETS) ========= * */
 @media screen and (max-width: 1024px) {
-    header {
+    .intro {
         height: 68vh;
     }
 
@@ -116,7 +116,7 @@ header a {
 
 /* * ========= MEDIA QUERIES (SMALL DEVICES / PHONES) ========= * */
 @media screen and (max-width: 600px) {
-    header {
+    .intro {
         height: 100vh;
     }
 
