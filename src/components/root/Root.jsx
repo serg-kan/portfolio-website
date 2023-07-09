@@ -15,7 +15,7 @@ import './root.css';
 const Root = () => {
   return (
     <div className="root">
-      <Navbar />
+      {/* <Navbar /> */}
       <Header /> 
       <Nav />
       <About />

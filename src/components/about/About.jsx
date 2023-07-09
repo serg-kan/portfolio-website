@@ -24,8 +24,8 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <BiAnalyse className="about__icon" />
-              <h5>Business Analysis</h5>
-              <small>2 Years</small>
+              <h5>Product Management</h5>
+              <small>2+ Years</small>
             </article>
 
             <article className="about__card">
@@ -36,13 +36,13 @@ const About = () => {
 
             <article className="about__card">
               <ImOffice className="about__icon" />
-              <h5>Leroy Merlin</h5>
+              <h5>Samolet Group</h5>
               <small>Current Company</small>
             </article>
           </div>
 
           <p>
-            Hey there! I'm Sergey, a business analyst, ex-web developer, also husband, father and son. 
+            Hey there! I'm Sergey, client-oriented product manager with 5+ years of experience in product and development
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
